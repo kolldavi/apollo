@@ -1,3 +1,1 @@
 # resolutions-app
-# apollo
-# apollo
