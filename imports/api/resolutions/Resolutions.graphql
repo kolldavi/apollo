@@ -1,4 +1,8 @@
-type Resolutions {
-_id: String!
-name: String!
+#name
+#date created
+#[todo]
+
+type Resolution {
+  _id: String!
+  name: String!
 }
