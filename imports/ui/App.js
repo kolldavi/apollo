@@ -4,7 +4,7 @@ import { graphql } from 'react-apollo';
 
 const App = ({ data }) => {
   if (data.loading) return null;
-
+  console.log('data', data);
   return (
     <div>
       <h1>{data.hi}</h1>
