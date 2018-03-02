@@ -3,6 +3,7 @@ import { createApolloServer } from 'meteor/apollo';
 import { makeExecutableSchema } from 'graphql-tools';
 import ResolutionsResolvers from '../../api/resolutions/resolvers';
 import merge from 'lodash/merge';
+
 const testData = `
 type Query{
   hi: String
