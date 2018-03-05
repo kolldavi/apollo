@@ -10,6 +10,7 @@ type Query{
   resolutions:[Resolution]
 }
 `;
+//
 const typeDefs = [testData, ResolutionsSchema];
 
 const resolver = {
